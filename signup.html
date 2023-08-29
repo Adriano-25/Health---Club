@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, viewport, keywords, and description -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="health, healthy life, healthy food, healthy advices">
+    <meta name="description" content="provides users a brand new healthy lifefyle choosing the right ideas">
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Club Health</title>
+</head>
+
+<body>
+    <!-- Header section with navigation links -->
+    <header>
+        <h1><i class="fa fa-globe" aria-hidden="true"></i>Club Health</h1>
+        <nav>
+            <ul class="center">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="photos.html">Photos</a>
+                </li>
+                <li>
+                    <a href="singup.html">Sign up!</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main id="screen">
+        <!-- Form section for sign up -->
+        <section class="form">
+
+        <!-- Form section containing input fields -->
+        <div class="form-section">
+            <form method="post" class="signup"></form>
+
+            <!-- Input fields for user information -->
+            <label for="fname">First Name:</label>
+            <input id="fname" name="first_name" type="text" class="input" required>
+
+            <label for="lname">Last Name:</label>
+            <input id="lname" name="last_name" type="text" class="input" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email_address" class="input" required>
+            <br>
+            <label>Choose a membership level:</label>
+            <br>
+            <label for="junior">Junior</label>
+            <input type="radio" id="junior" name="gender" value="junior" required>
+
+            <label for="senior">Senior</label>
+            <input type="radio" id="senior" name="gender" value="senior" required>
+
+            <label for="expert">Expert</label>
+            <input type="radio" id="expert" name="gender" value="expert" required>
+            <br>
+            <label for="feedback">Give Us a little Feedback?</label>
+            <br>
+            <textarea id="feedback" rows="4" cols="55" name="feedback"></textarea>
+
+            <!-- Submit button for sign up -->
+            <input class="button" type="submit" value="Sign Up!">
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer section with social media links -->
+    <footer>
+        <h4><i class="fa fa-search" aria-hidden="true"></i>Find Us On:</h4>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com" aria-label="Find us on Facebook(link opens in a new tab)"
+                    target="_blank" rel="noopener"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                 <a href="https://www.twitter.com" aria-label="Find us on Twitter (link opens in a new tab)"
+                 target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+               <a href="https://www.instagram.com" aria-label="Find us on Instagram (link opens in a new tab)"
+                target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" aria-label="Find us on LinkedIn(links opens in new tab)"
+                    target="_blank" rel="noopener"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- Font Awesome script for icons -->
+    <script src="https://kit.fontawesome.com/58cc89d8c4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
