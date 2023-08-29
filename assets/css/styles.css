@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    overflow: auto; /* This makes the body scrollable if its content overflows */
+}
+
+header {
+
+    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {  
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(168, 164, 164, 0.5);
+    color: green;
+    font-size: 45px;
+    padding-left: 22%;
+}
+
+body {
+    overflow-x: hidden;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: rgba(209, 200, 200, 0.4);
+}
+
+/*navigation links*/
+
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: darkgreen;
+
+}
+
+nav ul {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    color: darkgreen;
+}
+
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+nav a {
+    display: flex;
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: darkgreen;
+    color: orangered;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/*header image*/
+
+.center-image-right img{
+    width: 75%;
+    height: auto;
+}
+
+.center-image-right {
+    width: auto;
+    background: transparent;
+    margin: 10%;
+}
+
+
+.about-us-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.about-us-section h1 {
+    border-color: lightgreen;
+}
+
+.about-us-section h2
+ {
+    width: 100%;
+    color: darkgreen;
+    margin-top: 5%;
+
+
+}
+
+.about-us-section p,li {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-size: 25px;
+}
+
+.about-us-section a {
+    border-radius: 10px;
+}
+
+.about-us-section a:visited {
+    color: rgb(229, 171, 95);
+}
+
+.about-us-section a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/*iframe section*/
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+/*location*/
+
+
+#location {
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+}
+
+#location h3 {
+    font-size: 25px;
+    color: darkgreen;
+}
+
+
+/*web social links*/
+
+footer {
+    width: 100%;
+    background-color: rgb(168, 164, 164, 0.5);
+}
+
+
+footer h4 {
+    font-size: 25px;
+    color: darkgreen;
+}
+
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+footer li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+footer a {
+    color: orangered;
+}
+
+footer a:hover{
+    cursor: pointer;
+    transition: .5s;
+    color: green;
+}
+
+/* Styling for the photo gallery section */
+.gallery-images {
+    width: 100%; /* Full width */
+    margin: 10% auto; /* Center vertically */
+    padding: 1%;
+    font-size: 30px;
+    color: darkgreen;
+    text-align: center; /* Center the text horizontally */
+}
+
+.gallery-images h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Styling for the individual images */
+div.pushups {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: space-between; /* Distribute images evenly across the width */
+    gap: 30px; /* Add more space between images */
+    align-items: center; /* Center images vertically */
+}
+
+div.pushups img {
+    width: 60%; /* Adjust the width as needed */
+    max-height: 250px; /* Limit the maximum height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px;
+}
+
+/* Styling for the description text */
+#desc-photo {
+    background-color: rgba(255, 223, 186, 0.5);
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.description-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.important-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(109, 157, 109, 0.9);
+    margin-bottom: 20px;
+}
+
+.description-content p {
+    font-size: 18px;
+    color: rgba(109, 157, 109, 0.9);
+    line-height: 1.6;
+}
+
+.description-content a {
+    color: rgba(255, 140, 0, 0.9);
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.description-content a:hover {
+    color: darkorange;
+}
+
+/* Styling for the sign-up form section */
+#screen {
+    display: flex;
+    justify-content: flex-start; /* Move to the left side */
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/two-dumbbells-white-cloth-green-background_23-2147924574.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/* Styling for the form header section */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.form h2 {
+    color: orangered;
+    font-size: 35px;
+    margin: 0;
+}
+
+/* Styling for the form input section */
+.form-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    background: rgba(62, 172, 66, 0.671);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for labels */
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 2px;
+}
+
+/* Styling for input fields */
+.input {
+    width: 95%;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Styling for input fields on hover and focus */
+.input:hover,
+.input:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for the submit button */
+.button {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 110%;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Styling for the submit button on hover */
+.button:hover {
+    background-color: darkorange;
+}
+
+/* Styling for the feedback textarea */
+#feedback {
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    resize:initial;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Styling for the feedback textarea on hover and focus */
+#feedback:hover,
+#feedback:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    nav a {
+        font-size: 20px;
+    }
+
+    .center-image-right img {
+        width: 100%;
+    }
+
+    .about-us-section h2 {
+        font-size: 20px;
+    }
+
+    .about-us-section p,
+    .about-us-section li {
+        font-size: 20px;
+    }
+
+    footer h4 {
+        font-size: 20px;
+    }
+
+    footer ul {
+        font-size: 20px;
+    }
+
+    .gallery-images h3 {
+        font-size: 20px;
+    }
+}
