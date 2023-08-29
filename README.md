@@ -58,10 +58,10 @@ Club Health is a website that allows the user to find interesting information ab
  * HTML
    * No errors were returned when passing through the official W3C validator[ HTML Validator ](https://validator.w3.org/nu/#textarea)
  * CSS
-   * No errors were found when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/validator)to read and accessible by
+   * No errors were found when passing through the official [CSS Validator ](https://jigsaw.w3.org/css-validator/validator)to read and accessible by
  * Accessibility
    * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
-   ![lighthouse-screenshot](assets/readme-map-pic/Screenshot%202023-01-09%2019.10.34.png)
+   ![lighthouse-screenshot ](assets/readme-map-pic/FireShot%20Capture%20005%20-%20Lighthouse%20Report%20Viewer%20-%20googlechrome.github.io.jpg)
 
 ## Unfixed Bugs
  * One picture in the Gallery, the third picture in the row of pictures, jumps out of the row. I tried but it didn't work. And the screen slightly jumps out of size on the right side. You can see the scroll bar at the bottom of the page. Maybe it's because there is too much width in the sections. Tried to solve the same but it was not successful. The reason is the lack of advice and instruction.
@@ -71,7 +71,7 @@ Club Health is a website that allows the user to find interesting information ab
   * In the GitHub repository, navigate to the Settings tab.
   * From the source section drop-down menu, select the Main Branch
   * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  The live link can be found here - [adriano-25.github.io/Health--Club/](https://adriano-25.github.io/Health--Club/)
+  The live link can be found here - [adriano-25.github.io/Health--Club/] (https://adriano-25.github.io/Health--Club/)
 
 ### Content
   * The text for the Home page was written from the author Health Club.
