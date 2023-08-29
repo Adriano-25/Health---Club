@@ -35,7 +35,7 @@ Club Health is a website that allows the user to find interesting information ab
 ## Photos
   * The pictures will give the user an insight into the various activities that our team offers.
   * The pictures present great activity in training and a healthy lifestyle.
-  ![photo-images](assets/readme-map-pic/FireShot%20Capture%20001%20-%20Club%20Health%20-%208000-adriano25-healthclub-ze75kzv6bmd.ws-eu104.gitpod.io.png)
+  ![nav-readme-image](assets/readme-map-pic/FireShot%20Capture%20001%20-%20Club%20Health%20-%208000-adriano25-healthclub-ze75kzv6bmd.ws-eu104.gitpod.io.png.jpg)
 
 * Text Under the Photos
   * The text below the pictures is a small explanation of what the pictures mean and what they represent.
@@ -71,11 +71,11 @@ Club Health is a website that allows the user to find interesting information ab
   * In the GitHub repository, navigate to the Settings tab.
   * From the source section drop-down menu, select the Main Branch
   * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  The live link can be found here - [https://github.com/Adriano-25/Health---Club] (https://adriano-25.github.io/Health---Club/)
+  The live link can be found here -[https://github.com/Adriano-25/Health---Club](https://adriano-25.github.io/Health---Club/)
 
 ### Content
   * The text for the Home page was written from the author Health Club.
-  * The icons in the footer were taken from [Font Awesome]{https://fontawesome.com/}
+  * The icons in the footer were taken from [FontAwesome]{https://fontawesome.com/}
 
 ### Media
   * The pictures are taken from [Pixabay](https://pixabay.com/sv/) and [iStock](https://www.istockphoto.com/se?esource=SEM_IS_BI_SE_Pure-Brand_iStock_SV_Exact&kw=SE_Misspellings_Exact_i+stpck_e&kwid=s_43700036198446986_dc&pcrid=&utm_medium=cpc&utm_source=MICROSOFT&utm_campaign=SE_Pure-Brand_iStock_SV_Exact&utm_term=i+stpck&&msclkid=37d561f6da171386a0b2024a705349d4&gclid=37d561f6da171386a0b2024a705349d4&gclsrc=3p.ds)
