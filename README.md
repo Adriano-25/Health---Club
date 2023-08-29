@@ -71,7 +71,7 @@ Club Health is a website that allows the user to find interesting information ab
   * In the GitHub repository, navigate to the Settings tab.
   * From the source section drop-down menu, select the Main Branch
   * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  The live link can be found here - [adriano-25.github.io/Health--Club/] (https://adriano-25.github.io/Health--Club/)
+  The live link can be found here - [https://github.com/Adriano-25/Health---Club] (https://adriano-25.github.io/Health---Club/)
 
 ### Content
   * The text for the Home page was written from the author Health Club.
