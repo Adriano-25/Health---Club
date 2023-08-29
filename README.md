@@ -1,39 +1,81 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Club Health
+Club Health is a website that allows the user to find interesting information about us as a club where we introduce people to our work. It can give the user the necessary information to join the club where he will improve his healthy lifestyle.<br />
+![header-readme-image](assets/readme-map-pic/FireShot%20Capture%20001%20-%20Multi%20Device%20Website%20Mockup%20Generator%20-%20techsini.com.png)
 
-Welcome,
+## Features
+* Navigation
+  * Featured at the top of the page, the navigation shows the club name in the middle of the top corner.
+  * The navigation links are in the middle under the name Club Health.
+  * The navigation font style is Lato and the color is white with the background green color.
+  * The navigations links are : Home, Photos and Sign Up!
+  * All the navigation links referal to diffrent sections of informations.
+  ![nav-readme-image](assets/readme-map-pic/FireShot%20Capture%20004%20-%20Club%20Health%20-%208000-adriano25-healthclub-r2gujktweb7.ws-eu81.gitpod.io.png)
+* The Header Section
+  * The header background is in nice eye fit color light grey.
+  * The Logo picture respresent the page logo with healthy view on healthy lifestyle.
+  * The picture cointain also a logo name of The Health Club what is telling the user that he is Welcome to join our club.
+  ![nav-raadme-image](assets/readme-map-pic/header-image.gitpod.io.png)
+* The About Health Club section
+  * The About Health club section gives the user information when and where The Club Health started.
+  * The About Us section gives the user usefull and trust wordhy informations about how we are working.
+  * Under the text of the About health Club section, we have a link that leads directly to the application, Sign up!
+  * In this section we also telling the user What We Do as Health Club.
+  ![nav-readme-image](assets/readme-map-pic/about.health.club.section.gitpod.io.png)
+* Here We Are Section
+    * This section provides information to the user to find us more easily through the live location and by the way enables the user to visually see the exact written address on the "Read more" option.
+    * The section is written in warm green color and gives the user the opportunity to choose the path to the Health Club location.
+    ![nav-readme-image](assets/readme-map-pic/here.we.are.gitpod.io.png)
+    ![nav-readme-image](assets/readme-map-pic/map.gitpod.io.png)
+* The Footer Find Us on
+  * The footer section includes links to the social media sites for Health Club. The links will open in new tab and allow easy navigation for the user.
+  * The footer is useful to the user and provides to him a good connection to social media.
+  * The social media links are in color orangered what is fitting on nice color green letters and light grey background.
+  ![nav-readme-image](assets/readme-map-pic/footer.gitpod.io.png)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Photos
+  * The pictures will give the user an insight into the various activities that our team offers.
+  * The pictures present great activity in training and a healthy lifestyle.
+  ![photo-images](assets/readme-map-pic/FireShot%20Capture%20001%20-%20Club%20Health%20-%208000-adriano25-healthclub-ze75kzv6bmd.ws-eu104.gitpod.io.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+* Text Under the Photos
+  * The text below the pictures is a small explanation of what the pictures mean and what they represent.
+  ![photo-under-text-image](assets/readme-map-pic/FireShot%20Capture%20002%20-%20Club%20Health%20-%208000-adriano25-healthclub-ze75kzv6bmd.ws-eu104.gitpod.io.png)
 
-## Codeanywhere Reminders
+## Sign Up! Section
+ * The section serves the user to log in to the Health Club page, which will enable him to provide treatment services.
+ * The Sing Up section contains fields for user's name, surname, email address, in which condition the user is, feedback and the  Sing Up button.
+ ![sign-ip-photo](assets/readme-map-pic/FireShot%20Capture%20003%20-%20Club%20Health%20-%208000-adriano25-healthclub-ze75kzv6bmd.ws-eu104.gitpod.io.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+ ## Technologies
+ * HTML
+   * The structure of the Website was developed using HTML as the main language
+ * CSS
+   * The Website was styled using custom CSS in an external file.
+ * Font Awesome 
+   * Icons used for obtain titles nad Social media links in footer section.
 
-`python3 -m http.server`
+## Validator Testing
+ * HTML
+   * No errors were returned when passing through the official W3C validator[ HTML Validator ](https://validator.w3.org/nu/#textarea)
+ * CSS
+   * No errors were found when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/validator)to read and accessible by
+ * Accessibility
+   * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+   ![lighthouse-screenshot](assets/readme-map-pic/Screenshot%202023-01-09%2019.10.34.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Unfixed Bugs
+ * One picture in the Gallery, the third picture in the row of pictures, jumps out of the row. I tried but it didn't work. And the screen slightly jumps out of size on the right side. You can see the scroll bar at the bottom of the page. Maybe it's because there is too much width in the sections. Tried to solve the same but it was not successful. The reason is the lack of advice and instruction.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Deployment
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab.
+  * From the source section drop-down menu, select the Main Branch
+  * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  The live link can be found here - [adriano-25.github.io/Health--Club/](https://adriano-25.github.io/Health--Club/)
 
-`http_server`
+### Content
+  * The text for the Home page was written from the author Health Club.
+  * The icons in the footer were taken from [Font Awesome]{https://fontawesome.com/}
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+### Media
+  * The pictures are taken from [Pixabay](https://pixabay.com/sv/) and [iStock](https://www.istockphoto.com/se?esource=SEM_IS_BI_SE_Pure-Brand_iStock_SV_Exact&kw=SE_Misspellings_Exact_i+stpck_e&kwid=s_43700036198446986_dc&pcrid=&utm_medium=cpc&utm_source=MICROSOFT&utm_campaign=SE_Pure-Brand_iStock_SV_Exact&utm_term=i+stpck&&msclkid=37d561f6da171386a0b2024a705349d4&gclid=37d561f6da171386a0b2024a705349d4&gclsrc=3p.ds)
