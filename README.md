@@ -63,8 +63,8 @@ Club Health is a website that allows the user to find interesting information ab
    * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
    ![lighthouse-screenshot ](assets/readme-map-pic/FireShot%20Capture%20005%20-%20Lighthouse%20Report%20Viewer%20-%20googlechrome.github.io.jpg)
 
-## Unfixed Bugs
- * One picture in the Gallery, the third picture in the row of pictures, jumps out of the row. I tried but it didn't work. And the screen slightly jumps out of size on the right side. You can see the scroll bar at the bottom of the page. Maybe it's because there is too much width in the sections. Tried to solve the same but it was not successful. The reason is the lack of advice and instruction.
+## Bugs
+ * Don't contain any bugs 
 
 ## Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
